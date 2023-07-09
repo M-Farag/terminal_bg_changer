@@ -7,6 +7,6 @@ int main()
     cout << "Wt Bg color ?!!\n";
     int bg;
     cin >> bg;
-    cout << "\033]11;" << "#" << bg  << "\a";
+    cout << "\e]11;" << "#" << bg  << "\a";
     return 0;
 }
